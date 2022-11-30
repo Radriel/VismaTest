@@ -4,9 +4,7 @@
 # Ignore Gradle build output directory
 build
 
-!/webDrivers/chromedriver.exe
-!/VismaTest.iml
-
-!/VismaTest.ipr
-
-!/VismaTest.iws
+webDrivers/chromedriver.exe
+VismaTest.iml
+VismaTest.ipr
+VismaTest.iws
