@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="apiTests.EmployeesCRUDTests" skipped="0" tests="1" time="1.25" timestamp="2022-11-30 08:57:19"><testcase classname="apiTests.EmployeesCRUDTests" name="Get employee test"><error message="A JSONObject text must begin with '{' at 1 [character 2 line 1]" type="org.json.JSONException">A JSONObject text must begin with '{' at 1 [character 2 line 1]</error><system-err>A JSONObject text must begin with '{' at 1 [character 2 line 1]&#13;
+org.json.JSONTokener.syntaxError(JSONTokener.java:501)&#13;
+org.json.JSONObject.&lt;init&gt;(JSONObject.java:208)&#13;
+org.json.JSONObject.&lt;init&gt;(JSONObject.java:404)&#13;
+utils.apiUtils.EmployeeAPI.getAllEmployeesJSONArray(EmployeeAPI.java:84)&#13;
+utils.apiUtils.EmployeeAPI.getAllEmployees(EmployeeAPI.java:128)&#13;
+apiTests.EmployeesCRUDTests.getEmployeeTest(EmployeesAPITests.java:30)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

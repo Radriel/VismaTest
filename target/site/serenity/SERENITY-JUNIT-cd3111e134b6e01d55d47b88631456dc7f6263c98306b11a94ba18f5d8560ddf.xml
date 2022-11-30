@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="apiTests.EmployeesCRUDTests" skipped="0" tests="1" time="2.57" timestamp="2022-11-29 06:03:05"><testcase classname="apiTests.EmployeesCRUDTests" name="Create employee test"><error message="JSONObject[&quot;data&quot;] is not a JSONObject (class org.json.JSONObject$Null : null)." type="org.json.JSONException">JSONObject["data"] is not a JSONObject (class org.json.JSONObject$Null : null).</error><system-err>JSONObject["data"] is not a JSONObject (class org.json.JSONObject$Null : null).&#13;
+org.json.JSONObject.wrongValueFormatException(JSONObject.java:2702)&#13;
+org.json.JSONObject.getJSONObject(JSONObject.java:784)&#13;
+utils.apiUtils.EmployeeAPI.getEmployeeJSONObjectFromResponse(EmployeeAPI.java:101)&#13;
+utils.apiUtils.EmployeeAPI.getEmployee(EmployeeAPI.java:116)&#13;
+apiTests.EmployeesCRUDTests.createEmployeeTest(EmployeesAPITests.java:53)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
